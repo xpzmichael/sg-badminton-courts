@@ -15,16 +15,10 @@ const CourtDetail: React.FC<CourtDetailsProps> = ({ court, onBack }) => {
 
   // Construct Google Maps URL with latitude and longitude
   const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${latitude},${longitude}`;
-  const geoUrl = `geo:${latitude},${longitude}`;
 
   // Function to handle the click event
   const handleOpenInGoogleMaps = () => {
-    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-    if (isMobile) {
-      window.location.href = geoUrl;
-    } else {
-      window.open(googleMapsUrl, '_blank');
-    }
+    window.open(googleMapsUrl, '_blank');
   };
 
   return (
