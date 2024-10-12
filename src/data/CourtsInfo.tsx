@@ -7,7 +7,7 @@ export const courts: Court[] = [
       location: '10 Science Centre Rd, #01-12 Bestway Centre, Singapore 609079', 
       pricePeak: 32, 
       priceNonPeak: 16, 
-      bookingLink: 'https://book.afa-sports.com/scheduler', 
+      bookingLink: 'https://trusmash.com.sg/', 
       img: '/images/trusmash.jpg',
       position: [1.3308827855829943, 103.73825130859515] 
     },
