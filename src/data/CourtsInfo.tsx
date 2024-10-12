@@ -8,7 +8,7 @@ export const courts: Court[] = [
       pricePeak: 32, 
       priceNonPeak: 16, 
       bookingLink: 'https://book.afa-sports.com/scheduler', 
-      img: 'public/images/trusmash.jpg',
+      img: '/trusmash.jpg',
       position: [1.3308827855829943, 103.73825130859515] 
     },
     { 
@@ -18,7 +18,7 @@ export const courts: Court[] = [
       pricePeak: 24, 
       priceNonPeak: 10, 
       bookingLink: 'https://singaporebadmintonhall.com/sims/', 
-      img: 'public/images/SBH@sim.jpg',
+      img: '/SBH@sim.jpg',
       position: [1.3140971067880893, 103.88070090922584] 
     },
     { 
@@ -28,7 +28,7 @@ export const courts: Court[] = [
       pricePeak: 24, 
       priceNonPeak: 12, 
       bookingLink: 'https://singaporebadmintonhall.com/expo/', 
-      img: 'public/images/SBH@expo.jpg',
+      img: '/SBH@expo.jpg',
       position: [1.3320191989621424, 103.9589915822387] 
     },
     { 
@@ -38,7 +38,7 @@ export const courts: Court[] = [
       pricePeak: 15, 
       priceNonPeak: 25, 
       bookingLink: 'https://optimumbadmintonacademy.com/court-booking', 
-      img: 'public/images/OBA Punggol.jpg',
+      img: '/OBA Punggol.jpg',
       position: [1.4153453587062306, 103.8989499803905] 
     },
     { 
@@ -48,7 +48,7 @@ export const courts: Court[] = [
       pricePeak: 18, 
       priceNonPeak: 28, 
       bookingLink: 'https://optimumbadmintonacademy.com/court-booking', 
-      img: 'public/images/Community Hall @ Sprout Hub.jpg',
+      img: '/Community Hall @ Sprout Hub.jpg',
       position: [1.288, 103.816] 
     },
     { 
@@ -58,7 +58,7 @@ export const courts: Court[] = [
       pricePeak: 17, 
       priceNonPeak: 27, 
       bookingLink: 'https://optimumbadmintonacademy.com/court-booking', 
-      img: 'public/images/OBA Pasir Ris.jpg',
+      img: '/OBA Pasir Ris.jpg',
       position: [1.372, 103.949] 
     },
     {
@@ -68,7 +68,7 @@ export const courts: Court[] = [
         pricePeak: 2,
         priceNonPeak: 0,
         bookingLink: 'https://reboks.nus.edu.sg',
-        img: 'public/images/MPSH5.jpg',
+        img: '/MPSH5.jpg',
         position: [1.296, 103.774]
     },
     {
@@ -78,7 +78,7 @@ export const courts: Court[] = [
         pricePeak: 2,
         priceNonPeak: 0,
         bookingLink: 'https://reboks.nus.edu.sg',
-        img: 'public/images/UTown-Badminton.jpg',
+        img: '/UTown-Badminton.jpg',
         position: [1.305129982622251, 103.77195443789444]
     },
     {
@@ -88,7 +88,7 @@ export const courts: Court[] = [
         pricePeak: 12,
         priceNonPeak: 12,
         bookingLink: '',
-        img: 'public/images/MDIS.jpg',
+        img: '/MDIS.jpg',
         position: [1.2978448781296543, 103.80121021534195]
     }
   ];
