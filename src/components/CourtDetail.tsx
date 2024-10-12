@@ -18,7 +18,12 @@ const CourtDetail: React.FC<CourtDetailsProps> = ({ court, onBack }) => {
 
   // Function to handle the click event
   const handleOpenInGoogleMaps = () => {
-    window.open(googleMapsUrl, '_blank');
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (isMobile) {
+      window.location.href = googleMapsUrl;
+    } else {
+      window.open(googleMapsUrl, '_blank');
+    }
   };
 
   return (
